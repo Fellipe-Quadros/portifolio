@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fellipe Quadros</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="menu" class="hero-conteiner">
+        <header>
+            <nav>
+                <ul>
+                    <a href="#menu"><li >Home</li></a>
+                    <a href="#perfil"><li >Tecnologias</li></a>
+                    <a href="#projetos"><li >Projetos</li></a>
+                    <a href="#contato"><li >Contato</li></a>
+                </ul>
+            </nav>
+        </header>
+        <h1>Procurando um desenvolvedor FullStack?</h1>
+        <svg class="arrows">
+            <path class="a1" d="M0 0 L30 32 L60 0"> </path>
+            <path class="a2" d="M0 20 L30 52 L60 20"> </path>
+            <path class="a3" d="M0 40 L30 62 L60 40"> </path>
+        </svg>
+    </div>
+    <div class="content-conteiner">
+        <div id="perfil" class="profile-conteiner">
+            <div class="profile-content">
+                <div class="profile-card">
+                    <img class="profile-img" src="./assets/IMG_20230807_125828_792.jpg"/>
+                    <span class="name-text">Fellipe Quadros</span>
+                    <span class="profile-text">
+                        Sem determinação não somos nada e sem esforço nos tornaremos ninguém.
+                    </span>
+                    <a href="https://www.instagram.com/fellipe.qs/" target="_blank">
+                        <button class="profile-button">
+                            Contato pessoal
+                        </button>
+                    </a>
+                    <div class="divider">
+
+                    </div>
+                    <div class="icons-conteiner">
+                        <img class="icon-item" src="./assets/js.png"/>
+                        <img class="icon-item" src="./assets/node.png"/>
+                        <img class="icon-item" src="./assets/react.png"/>
+                        <img class="icon-item" src="./assets/typescript.png"/>
+                        <img class="icon-item" src="./assets/sql.png"/>
+                        <img class="icon-item" src="./assets/html.png"/>
+                        <img class="icon-item" src="./assets/css.png"/>
+                        
+                    </div>
+                </div>
+            </div>
+            <p class="profile-sinopse">
+                Focado, determinado e sempre buscando dar o meu melhor no que me proponho a fazer, nunca deixando nada pela 
+                metade, pois busco terminar tudo que eu decido começar. Sempre tive uma boa comunicação e um aprendizado rápido, 
+                tendo aprendido a falar inglês de forma avançada e o básico do espanhol para no mínimo conseguir me comunicar 
+                com eles também. Estou sempre buscando agregar e expor a melhor qualidade de trabalho que eu puder entregar, 
+                assim como eu fiz em todos os meus projetos pessoais ao longo do meu aprendizado. Muito obrigado por ter me 
+                ceder seu tempo e ter lido até aqui. 
+            </p>
+        </div>
+    </div>
+
+    <div class="Content-conteiner">
+        <div id="projetos" class="project-conteiner">
+            <div class="project-content">
+                <div class="position-conteiner right">
+                    <div class="project-card">
+                       <a href="https://github.com/Fellipe-Quadros/batman-ticket-sale-version-react-" target="_blank"> <img class="project-image" src="./assets/batmanImg.png"/></a>
+                        <p class="project-text">
+                            Construído com o proposito de servir como um meio para o cliente conseguir comprar seu ingresso, 
+                            onde no site você tem algumas páginas além da própria home principal, como a área de suporte, fotos
+                            e home, feito inteiramente em react
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-conteiner left">
+                    <div class="project-card card-reverse" >
+                        <img class="project-image image-reverse" src="./assets/wppimage.jpeg"/>
+                        <p class="project-text">
+                            Um dos meus últimos projetos, usando todo conhecimento acumulado ao longo dos meus estudos, 
+                            buscando ser uma representação fiel do WhatsApp web convencional, feito com React e SQL
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-conteiner right">
+                    <div class="project-card">
+                        <a href="https://github.com/Fellipe-Quadros/imc.calc" target="_blank"><img class="project-image" src="./assets/Captura de tela 2024-08-13 133703.png"/></a>
+                        <p class="project-text">
+                            Um dos meus primeiros projetos e a representação dos meus primeiros esforços no aprendizado 
+                            da programação, construído de forma mais simples em comparacao com os demais, 
+                            porem com um peso muito grande pelo que representa a mim. Sendo um site apenas para consultar seu 
+                            imc
+                        </p>
+                    </div>
+                </div>
+
+                <div class="position-conteiner left">
+                    <div class="project-card card-reverse" >
+                        <a href="https://github.com/Fellipe-Quadros/star-wars-guia" target="_blank"><img class="project-image image-reverse" src="./assets/Captura de tela 2024-08-19 093249.png"/></a>
+                        <p class="project-text">
+                            Projeto referente a star wars, onde pelo uso de uma API e java temos a criação de cards automáticos
+                            e resumos de cada personagem e planeta em toda a saga, sendo java a principal linguagem deste 
+                            projeto, para a prática do mesmo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contato" class="form-conteiner">
+        <form action="https://formspree.io/f/xnnjzvek" method="POST">
+            <h1 class="tittle"> Fale comigo</h1>
+            <label>
+                <input type="email" name="email" placeholder="coloque um email valido" type="reset">
+            </label>
+    
+            <label>   
+                <textarea type="text" name="message" rows="10" placeholder="description" type="reset"></textarea>
+            </label>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+    <script src="header/header.js"></script>
+</body>
+</html>
